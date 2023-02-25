@@ -115,6 +115,8 @@ def get_last_5_entries_sales():
         column = sales.col_values(ind)
         columns.append(column[-5:])
     return columns
+    
+    
 
 
 def main():
@@ -130,3 +132,4 @@ def main():
 print("Welcome to Love Sandwiches Data Automation")
 #main()
 sales_columns = get_last_5_entries_sales()
+
